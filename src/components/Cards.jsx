@@ -30,6 +30,7 @@ const Cards = ({ notes, deleteNote }) => {
     return (
       <div className="text-center py-12">
         <h3 className="mt-4 text-lg font-medium text-gray-900">Save first note here</h3>
+        <p className="mt-2 text-gray-500">Create your first note above!</p>
       </div>
     )
   }

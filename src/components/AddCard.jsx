@@ -13,7 +13,7 @@ const AddCard = ({ addNote }) => {
     }
 
     return (
-        <div className="max-w-2xl mx-auto mb-8">
+        <div>
             <div className="bg-white rounded-lg shadow-md border border-gray-200 p-4">
                 <input
                     type="text"
