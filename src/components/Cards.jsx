@@ -2,8 +2,8 @@ import React from 'react'
 
 const Card = ({ note, deleteNote }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md border border-gray-200 p-4 hover:shadow-lg transition-shadow duration-200 mb-4">
-      <div className="flex justify-between items-start mb-2">
+    <div className="bg-white rounded-lg shadow-md border border-gray-200 p-4 hover:shadow-lg transition-shadow duration-200 mb-4 mt-20 border-gray-300 hover:border-yellow-500">
+      <div className="flex justify-between items-start mb-2 ">
         {note.title && (
           <h3 className="text-lg font-medium text-gray-800 mr-2">{note.title}</h3>
         )}
@@ -19,7 +19,7 @@ const Card = ({ note, deleteNote }) => {
       </div>
       
       {note.content && (
-        <p className="text-gray-700 whitespace-pre-wrap">{note.content}</p>
+        <p className="text-gray-700 whitespace-pre-wrap mt-2">{note.content}</p>
       )}
     </div>
   )
